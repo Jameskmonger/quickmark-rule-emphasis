@@ -23,4 +23,13 @@ module.exports = function (input) {
             parsed: underscoreParsed[1]
         };
     }
+
+    var asteriskParsed = ASTERISKS_REGEXP.exec(input);
+
+    if (asteriskParsed) {
+        return {
+            original: asteriskParsed[0],
+            parsed: asteriskParsed[1]
+        };
+    }
 };
