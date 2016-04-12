@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Jameskmonger/quickmark-rule-emphasis.git"
+    "url": "git+https://github.com/Jameskmonger/quickmark-rule-emphasis.git"
   },
   "keywords": [
     "quickmark",
