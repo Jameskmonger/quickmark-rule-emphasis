@@ -32,4 +32,6 @@ module.exports = function (input) {
             parsed: asteriskParsed[1]
         };
     }
+
+    return undefined;
 };
