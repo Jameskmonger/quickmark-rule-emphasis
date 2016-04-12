@@ -22,9 +22,9 @@ test('it returns undefined for tildes', (t, input) => {
     t.assert.equal(undefined, output);
 
 }, [
-    ['~~apples and oranges~~'],
-    ['~~plain text here~~'],
-    ['~~woop dee doo~~']
+    ['~apples and oranges~'],
+    ['~plain text here~'],
+    ['~woop dee doo~']
 ]);
 
 test('it returns an object with the correct \'original\' for one underscore', (t, input) => {
