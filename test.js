@@ -64,3 +64,17 @@ test('it returns an object with the correct \'parsed\' for one underscore', (t, 
     ['plain text here'],
     ['woop dee doo']
 ]);
+
+test('it returns an object with the correct \'parsed\' for one asterisk', (t, input) => {
+
+    let tag = '*';
+
+    let output = emphasis(tag + input + tag);
+
+    t.assert.equal(input, output.parsed);
+
+}, [
+    ['apples and oranges'],
+    ['plain text here'],
+    ['woop dee doo']
+]);
