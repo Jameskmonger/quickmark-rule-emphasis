@@ -14,3 +14,15 @@ test('it returns undefined for plain text', (t, input) => {
     ['plain text here'],
     ['woop dee doo']
 ]);
+
+test('it returns undefined for tildes', (t, input) => {
+
+    let output = emphasis(input);
+
+    t.assert.equal(undefined, output);
+
+}, [
+    ['~~apples and oranges~~'],
+    ['~~plain text here~~'],
+    ['~~woop dee doo~~']
+]);
