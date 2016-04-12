@@ -1,0 +1,25 @@
+{
+  "name": "quickmark-rule-emphasis",
+  "version": "1.0.0",
+  "description": "Emphasis rule for Quickmark",
+  "main": "index.js",
+  "scripts": {
+    "test": "modunit test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jameskmonger/quickmark-rule-emphasis.git"
+  },
+  "keywords": [
+    "quickmark",
+    "emphasis",
+    "regexp",
+    "markdown"
+  ],
+  "author": "James Monger <jameskmonger@hotmail.co.uk> (https://jamesmonger.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jameskmonger/quickmark-rule-emphasis/issues"
+  },
+  "homepage": "https://github.com/Jameskmonger/quickmark-rule-emphasis"
+}
