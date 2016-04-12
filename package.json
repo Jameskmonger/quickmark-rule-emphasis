@@ -25,7 +25,7 @@
   "bugs": {
     "url": "https://github.com/Jameskmonger/quickmark-rule-emphasis/issues"
   },
-  "homepage": "https://github.com/Jameskmonger/quickmark-rule-emphasis",
+  "homepage": "https://github.com/Jameskmonger/quickmark-rule-emphasis#readme",
   "devDependencies": {
     "eslint": "^2.7.0",
     "modunit": "^0.3.0",
