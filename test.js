@@ -38,3 +38,15 @@ test('it returns an object with the correct \'original\' for one underscore', (t
     ['_plain text here_'],
     ['_woop dee doo_']
 ]);
+
+test('it returns an object with the correct \'original\' for one asterisk', (t, input) => {
+
+    let output = emphasis(input);
+
+    t.assert.equal(input, output.original);
+
+}, [
+    ['*apples and oranges*'],
+    ['*plain text here*'],
+    ['*woop dee doo*']
+]);
