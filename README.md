@@ -18,6 +18,12 @@ emphasis('_italic text_');
 //     original: '_italic text_',
 //     parsed: 'italic text'
 // }
+
+emphasis('**some emphasised text** with a little bit of normal text after');
+// {
+//     original: '**some emphasised text**',
+//     parsed: 'some emphasised text'
+// }
 ```
 
 ## License
