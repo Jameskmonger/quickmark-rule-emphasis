@@ -7,8 +7,7 @@ var createEmphasisRegExpTag = function (character) {
 var createEmphasisRegExp = function (tagCharacter) {
     return new RegExp('^' + createEmphasisRegExpTag(tagCharacter)
                         + '([\\s\\S]+?)'
-                        + createEmphasisRegExpTag(tagCharacter)
-                        + '$');
+                        + createEmphasisRegExpTag(tagCharacter));
 };
 
 var UNDERSCORES_REGEXP = createEmphasisRegExp('_');
