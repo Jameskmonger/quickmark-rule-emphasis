@@ -28,7 +28,6 @@ emphasis('**some emphasised text** with a little bit of normal text after');
 //     original: '**some emphasised text**',
 //     parsed: 'some emphasised text'
 // }
-
 ```
 
 ## License
