@@ -90,3 +90,15 @@ test('it returns an object with the correct \'original\' for one underscore with
     ['_plain text here_ bla bla bla', '_plain text here_'],
     ['_woop dee doo_ and a whippy woo', '_woop dee doo_']
 ]);
+
+test('it returns an object with the correct \'original\' for one asterisk with text after', (t, input, original) => {
+
+    let output = emphasis(input);
+
+    t.assert.equal(original, output.original);
+
+}, [
+    ['*apples and oranges* are my favourite', '*apples and oranges*'],
+    ['*plain text here* bla bla bla', '*plain text here*'],
+    ['*woop dee doo* and a whippy woo', '*woop dee doo*']
+]);
